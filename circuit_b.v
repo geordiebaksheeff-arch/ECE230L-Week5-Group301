@@ -3,6 +3,6 @@ module circuit_b(
     output Y
 );
 
-    assign Y = (~C & ~D) | (A & B) | (B & C & ~D);
+    assign Y = (~C & ~D) | (A & B) | (B & ~D);
 
 endmodule
