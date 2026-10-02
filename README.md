@@ -20,9 +20,8 @@ Geordie Baksheeff and
 ## Lab Summary
 
 
-
-
-
+Learning about the constraints file and how to combine multiple modules to
+create combinatorial logic functions.
 
 ## Lab Questions
 
