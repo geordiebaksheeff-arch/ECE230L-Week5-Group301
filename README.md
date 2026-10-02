@@ -15,13 +15,26 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 
 ## Name
 
+Geordie Baksheeff and 
+
 ## Lab Summary
+
+
+
+
+
 
 ## Lab Questions
 
 ### 1 - Explain the role of the Top Level file.
 
+It's the file which is used by vivado to assign the FPGA's design.
+
+
 ### 2 - Explain the function of the Constraints file.
+
+The constraints file is used 
+
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
 
