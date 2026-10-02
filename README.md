@@ -15,7 +15,7 @@ the constraints file maps your inputs and outputs to real pins on the FPGA.
 
 ## Name
 
-Geordie Baksheeff and 
+Geordie Baksheeff and Erick Beltran
 
 ## Lab Summary
 
@@ -27,7 +27,7 @@ create combinatorial logic functions.
 
 ### 1 - Explain the role of the Top Level file.
 
-It's the file which is used by vivado to assign the FPGA's design.
+The top level file works as an overview of the FPGA's design. It allows us to define our circuits inputs and outputs and manage the way the way they interact with each other to combine all functional blocks into a design that is mapped to the hardware.
 
 
 ### 2 - Explain the function of the Constraints file.
@@ -38,4 +38,6 @@ FPGA chip doesn't know what sw[0] is or where it is.
 
 
 ### 3 - Was the selection of Minterm and Maxterm correct for each circuit? What would you have chosen?
+
+For circuit A either min or max terms were acceptable as it would have created the same formula either way. The min term was potentially more ideal as it would have been 1 group instead of the 2 large ones max terms created. For circuit B, min terms was the more ideal choice. It created 3 large easy to recognize groups. Max terms would have had smaller groups.
 
