@@ -20,7 +20,7 @@ Geordie Baksheeff and Erick Beltran
 ## Lab Summary
 
 
-Learning about the constraints file and how to combine multiple modules to
+Learning about the constraints file and how to combine multiple modules through the top file to
 create combinatorial logic functions.
 
 ## Lab Questions
